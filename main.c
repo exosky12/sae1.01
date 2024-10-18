@@ -1,7 +1,5 @@
 #include "main.h"
 
-<<<<<<< HEAD
-=======
 
 int chargerData(int tabNumEtu[], int tabRefStage[], int tabNoteFinale[], int tailleTab)
 {
@@ -26,4 +24,3 @@ int chargerData(int tabNumEtu[], int tabRefStage[], int tabNoteFinale[], int tai
     }
     return i;
 }
->>>>>>> e87738e (s)
