@@ -1,0 +1,26 @@
+[!] ATTENTION
+
+pour des raisons d'utilisation de "scanf"
+
+si on modifie le fichier "data_stage.txt" faut **pas mettre de retour à la ligne à la fin** car
+le programme croit qu'il reste des lignes à traiter et mets du buffer dans 
+les variables
+
+example: 
+""""
+5008 63
+1
+638
+1061 03
+0
+0
+2548 63
+0
+1
+517
+3040 04
+1
+517""""
+
+j'ai tenté par plusieurs moyens de chercher comment contourner.. il faut utiliser
+fgets mais ici on ne l'utilise pas.
